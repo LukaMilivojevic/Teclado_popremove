@@ -26,7 +26,7 @@ customers = [['John', 1],
              ['John', 4]]
 
 ## delete the last element of the nested list and assign it to a variable
-## used to explain how the pop returns the deleted element which might be needed to check if we removed the right customer
+## explain how the pop returns the deleted element which might be needed to check if we removed the right customer
 customer_1 = customers.pop()
 
 ## delete the second element of the nested list without assigning the return value
@@ -47,14 +47,14 @@ customers = [[["John", 11],["Lisa", 12],["Rolf", 13]],
 
 ### customers.remove(["John", 11]) example of an error with an explanation of why it doesn't work
 
-### explain how to remove John from the db properly
+### explain how to remove ["John", 11] from the db properly
 customers[0].remove(["John", 11]) 
 
- ### explain how to remove a whole nested list
+### explain how to remove a list which is used as a value to be removed
 customers.remove([["Lisa", 12],["Rolf", 13]])
 
 ### removing a nested list using remove and index 
-### a real life example is - remove all customers in one "batch" which could be a town or country, etc.
+### a real life example is - remove all customers in one "batch" which could be a town, country, etc.
 customers.remove(customers[0])
 
 
