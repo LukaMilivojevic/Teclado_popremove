@@ -12,7 +12,7 @@ customers = [['John', 1],
 ## reminder that the remove function removes only the first matching value
 customers.remove(['John', 1])
 
-## use remove to basically delete an element from the nested list by index while actually using the value
+## use remove to delete an element from the nested list by index while actually using the value
 customers.remove(customers[1])
 
 
