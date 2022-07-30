@@ -16,8 +16,6 @@ customers.remove(['John', 1])
 customers.remove(customers[1])
 
 
-
-
 # Pop
 
 ## The pop() function is used to remove an element from the list and return it.
@@ -33,10 +31,6 @@ customer_1 = customers.pop()
 
 ## delete the second element of the nested list without assigning the return value
 customers.pop(1)
-
-
-
-
 
 
 
@@ -62,8 +56,6 @@ customers.remove([["Lisa", 12],["Rolf", 13]])
 ### removing a nested list using remove and index 
 ### a real life example is - remove all customers in one "batch" which could be a town or country, etc.
 customers.remove(customers[0])
-
-
 
 
 ## Pop
